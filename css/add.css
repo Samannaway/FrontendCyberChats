@@ -1,0 +1,22 @@
+.add{
+    display: grid;
+    height: 45rem;
+    width:81rem;
+    place-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.add-input{
+    background-color: #252837 ;
+}
+
+.search-btn{
+    display: grid;
+    place-items: center;
+    margin: 1rem auto;
+    width: 5rem;
+    font-weight: 800;
+    color: rgb(174, 174, 174);
+}

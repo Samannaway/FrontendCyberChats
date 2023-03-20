@@ -1,0 +1,82 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+.loginDiv{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.login-inner{
+    height: 20rem;
+    width: 40rem;
+    display: grid;
+    background: linear-gradient(179.89deg, #3752BF 0.09%, rgba(7, 20, 71, 0) 121.53%);
+    border-radius: 1rem;
+    place-content: center;
+    text-align: center;
+    font-weight: 200;
+    padding: 2rem;
+}
+
+.login-inner p{
+    margin: 0 0 1rem 0;
+}
+
+.head-span{
+    margin-top: 4rem;
+}
+
+.login-head{
+    color: #fff;
+    font-size: 250%;
+}
+
+
+.login-redirect, .login-redirect img{
+    height: 4rem;
+    width: 5.5rem;
+    /* background-attachment: url("./images/loginGoogle.png") ; */
+    border-radius: 5rem;
+    margin-top: 1rem;
+}
+
+.login-inner a:hover{
+    cursor: pointer;
+    /* background-image: url("./images/ggif.gif") ; */
+}
+
+.login-redirect-button, .login-redirect-button img{
+    /* display: grid; */
+    height: 3rem;
+    width: 4.5rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+}
+
+.login-redirect-button{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    color: #fff;
+    font-weight: 400;
+    background-color: #EE58AE;
+    transition: all 0.2s linear;
+
+}
+
+.login-redirect-button:hover{
+    cursor: pointer;
+    background-color: #AD43F5;
+    transition: all 0.2s linear;
+    font-weight: 800;
+
+}

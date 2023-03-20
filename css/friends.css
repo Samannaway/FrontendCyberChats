@@ -1,0 +1,68 @@
+
+
+.friends{
+    width: 75rem;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 5rem 3rem;
+    overflow-y: scroll;
+}
+
+.friends-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.friendElem{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.remove{
+    display: flex;
+    height: 3rem;
+    width: 10rem;
+    background-color: #a31c1c;
+    border-radius: 5px;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.2rem 0 0.2rem 1rem;
+    margin: 1rem;
+    gap: 0.4rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.remove:hover{
+    cursor: pointer;
+    background-color: #6d1313;
+}
+
+.search-friend{
+    margin-bottom: 1.5rem;
+}
+
+.friends-btn-div{
+    width: 74rem;
+}
+
+.friends-btn-area{
+    display: flex;
+    gap: 1rem;
+    margin: auto auto;    
+    width: 10rem;
+}
+
+.friends-btn{
+    font-size: 90%!important;
+    font-weight: 800!important;
+    margin: 0 0 2rem 0!important;
+}
